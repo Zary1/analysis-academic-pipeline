@@ -1,0 +1,17 @@
+version: 2
+
+sources:
+  - name: raw
+    description: "Original data"
+    database: analysis_academic
+    schema: raw
+
+    tables:
+      - name:  student_por
+        description: "Original table student_por"
+
+    
+
+
+       
+

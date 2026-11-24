@@ -1,0 +1,13 @@
+version: 2
+models:
+  - name: dim_school
+    columns:
+      - name: school_key
+        tests:
+          - unique
+          - not_null
+      - name: school_code
+        tests: 
+          - unique
+          - not_null
+        

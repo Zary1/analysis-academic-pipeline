@@ -1,0 +1,12 @@
+version: 2
+
+models: 
+  - name: fact_student_performance
+    columns:
+      - name: student_key
+        tests:
+          - unique
+          - not_null
+      - name: school_key
+        tests:
+          - not_null
